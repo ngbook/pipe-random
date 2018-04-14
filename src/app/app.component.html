@@ -1,4 +1,4 @@
-<div class="img-wrapper">
-    <img [src]="'./assets/imgs/' + (imgs | random)"
-        alt="演示图片"/>
+<div class="img-wrapper" *ngIf="imgs | random as img">
+    <img [src]="'http://ou2gp2r4n.bkt.clouddn.com/ngbook/pipe-random/' + img.pic" [alt]="img.desc" />
+    <p class="desc">{{img.desc}}</p>
 </div>

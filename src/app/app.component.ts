@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
     imgs = [
-        'pic1.jpg',
-        'pic2.jpg',
-        'pic3.jpg',
-        'pic4.jpg',
-        'pic5.jpg',
+        {pic: 'pic1.jpg', desc: '家里随心摆拍'},
+        {pic: 'pic2.jpg', desc: '拍摄于深圳南山科技园文化广场'},
+        {pic: 'pic3.jpg', desc: '拍摄于上海外滩'},
+        {pic: 'pic4.jpg', desc: '拍摄于深圳宝安西湾红树林'},
+        {pic: 'pic5.jpg', desc: '拍摄于北京圆明园遗址'},
     ];
 }
