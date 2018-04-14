@@ -1,4 +1,5 @@
 <div class="img-wrapper" *ngIf="imgs | random as img">
-    <img [src]="'http://ou2gp2r4n.bkt.clouddn.com/ngbook/pipe-random/' + img.pic" [alt]="img.desc" />
+    <img  [alt]="img.desc"
+    [src]="'http://ou2gp2r4n.bkt.clouddn.com/ngbook/pipe-random/' + img.pic" />
     <p class="desc">{{img.desc}}</p>
 </div>
